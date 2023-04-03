@@ -1,0 +1,25 @@
+{
+  "name": "w-sync",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "",
+  "bin": {
+    "sync-client": "src/client.js",
+    "sync-server": "src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luwenxull/w-sync.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luwenxull/w-sync/issues"
+  },
+  "homepage": "https://github.com/luwenxull/w-sync#readme",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "ws": "^8.13.0"
+  }
+}
